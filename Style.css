@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: whitesmoke;
+    font-family: sans-serif;
+}
+.profile-img
+{
+    width: 25%;
+    float: right;
+}
+.profile-img img
+{
+    width: 70%;
+    height: 200px;
+    border-radius: 50%;
+    margin-top:10px;
+}
+.profile-info
+{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+    overflow-y: scroll;
+}
+.profile-info::-webkit-scrollbar
+{
+    width: 0px;
+}
+.profile-info h1
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.information-field
+{
+    
+    display: flex;
+}
+.information-field2 img
+{
+    width: 18px;
+    margin: -5;
+
+}
+.information-field2 span
+{
+    margin: 5%;
+}
+.information-field2
+{
+    flex: 1;
+    padding: 1em;
+    margin-left: 3%;
+    width: 3%;
+
+}
+
+.work-exp
+{
+    margin-top: 4%;
+}
+.working-exp
+{
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+.Education-info
+{
+    margin-top: 4%;
+}
+.Education
+{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.Skill-info
+{
+    margin-top: 4%;
+    display: flex;
+}
+.Bp-info
+{
+    flex: 1;
+    padding: 1em;
+    margin-top: 3%;
+}
+
+.checked
+{
+    color: orange;
+}
